@@ -4,7 +4,7 @@ class CatShow extends Component {
     render() {
         return (
             <div>
-                
+                <p>Check out these fluffy Cats!</p>
             </div>
         );
     }
