@@ -19,8 +19,8 @@ describe("When Header renders", () => {
         
     const renderedHeader = shallow(<Header/>)
 
-    const renderedDiv = renderedHeader.find("h2").text()
+    const renderedH2 = renderedHeader.find("h2")
   
-      expect(renderedDiv.length).toEqual(1)
+      expect(renderedH2.length).toEqual(1)
     })
   })
