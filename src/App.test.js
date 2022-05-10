@@ -28,5 +28,16 @@ describe("When App renders", () => {
     expect(renderedHeader.length).toEqual(1)
     expect(renderedFooter.length).toEqual(1)
   })
-})
+
 //  ✓ displays a Header and Footer (5 ms)
+
+it("provides a route of '/' to the home component", ()=>{
+    
+
+  const renderedHomeRoute = renderedApp.find("[path='/']")
+  console.log("debug of renderedHomeRoute", renderedHomeRoute.debug())
+
+  expect(renderedHomeRoute.length).toEqual(1)
+
+  })
+})
