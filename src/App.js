@@ -20,8 +20,18 @@ class App extends Component{
   render() {
     return (
       <div>
+      <Router>
         <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/catedit" component={CatEdit} />
+          <Route path="/catindex" component={CatIndex} />
+          <Route path="/catnew" component={CatNew} />
+          <Route path="/catshow" component={CatShow} />
+          <Route component={NotFound} />
+        </Switch>
         <Footer />
+      </Router>
       </div>
     );
   }
