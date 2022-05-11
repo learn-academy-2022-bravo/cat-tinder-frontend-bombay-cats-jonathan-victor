@@ -6,10 +6,8 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-
 import Footer from './components/Footer'
 import Header from './components/Header'
-
 import CatEdit from './pages/CatEdit'
 import CatIndex from './pages/CatIndex'
 import CatNew from './pages/CatNew'
