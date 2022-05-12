@@ -22,4 +22,11 @@ describe("When Home renders", () => {
 
       expect(renderHomePage).toEqual("Welcome to Cat Tinder!")
     })
+    it("All props have `img` tag.", () => {
+
+      const renderHome = shallow(<Home />)
+      const renderHomePage = renderHome.find("h3").text()
+
+      expect(renderHomePage).toEqual("Welcome to Cat Tinder!")
+    })
   })
