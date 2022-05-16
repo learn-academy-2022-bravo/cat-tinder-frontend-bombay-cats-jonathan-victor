@@ -75,7 +75,7 @@ class App extends Component {
   render() {
     console.log(this.state.cats)
     return(
-      <Router class="router">
+      <Router>
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />

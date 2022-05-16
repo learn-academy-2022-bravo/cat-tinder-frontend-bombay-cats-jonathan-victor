@@ -5,6 +5,7 @@
 }
 div {
   color: white;
+  text-align: center;
 }
 body {
   background: url(./assests/ManjuTheDestroyerOfWorlds.jpg) ;
@@ -27,16 +28,20 @@ body {
   margin-bottom: 0px;
 }
 .header-nav {
-  background-color: #4e118e;
+  background-color: transparent;
   justify-content: space-between;
   display: flex;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
 }
 .nav-link {
-  color: #FF0080 !important;
+  color: white !important;
   margin-bottom: 10px;
 }
 .nav-link:hover {
-  color: #000 !important;
+  color: red !important;
 }
 .nav-item {
   align-self: flex-end;
