@@ -1,38 +1,62 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+
+}
+div {
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: url(./assests/ManjuTheDestroyerOfWorlds.jpg) ;
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-body {
+  margin: 3rem;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.header-nav {
+  background-color: transparent;
+  justify-content: space-between;
+  display: flex;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+}
+.nav-link {
+  color: white !important;
+  margin-bottom: 10px;
+}
+.nav-link:hover {
+  color: red !important;
+}
+.nav-item {
+  align-self: flex-end;
+}
+.show {
+  color: white;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.index {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding-top: 50px;
 }
